@@ -1,0 +1,19 @@
+name: erosion-saint-louis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - earthengine-api
+  - gdal
+  - geopandas
+  - scikit-image
+  - scikit-learn
+  - astropy
+  - shapely
+  - pyproj
+  - pyqt
+  - imageio
+  - matplotlib
+  - notebook
+  - ipykernel
+  - pip

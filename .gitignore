@@ -1,0 +1,17 @@
+# Images satellites téléchargées (volumineuses)
+data/raw/
+
+# Clone local de CoastSat
+CoastSat/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Dossier temporaire à supprimer
+_to_delete/

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <pubdate>20261031</pubdate>
+        <title>transects_50m_intersect_20261031_190155 - Digital Shoreline Analysis System Version 6.2.104 Intersects</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>Series</sername>
+          <issue>Issue</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Publication place</pubplace>
+          <publish>Publisher</publish>
+        </pubinfo>
+        <othercit>This metadata record is a template for data created using the U.S. Geological Survey (USGS) Digital Shoreline Analysis System (DSAS) version 6.2 application. Basic process steps and attribute fields have been described but MANY REQUIRED FIELDS HAVE BEEN LEFT BLANK in order for the DSAS user to enter their specifications. Therefore, this metadata file is not FGDC-compliant as is. DSAS version 6 is a desktop application that loads geospatial files (geoJSON or shapefile) saved by a Geographic Information System. The DSAS software requires users to import a reference baseline and a set of shoreline positions. DSAS will then generate measurement transects and shoreline intersections which it will use to calculate rate-of-change statistics. In addition, DSAS provides uncertainties associated with rates of change. This metadata file accompanies an intersect file of the same name that was created using the Digital Shoreline Analysis System version 6.2.</othercit>
+        <onlink>link</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Originator</origin>
+            <pubdate>YYYY</pubdate>
+            <title>Project title</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Series</sername>
+              <issue>Issue</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Publication place</pubplace>
+              <publish>Publisher</publish>
+            </pubinfo>
+            <othercit>Other citation info</othercit>
+            <onlink>link</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract/>
+      <purpose/>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20261031</caldate>
+        </sngdate>
+      </timeinfo>
+      <current/>
+    </timeperd>
+    <status>
+      <progress/>
+      <update/>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-16.5201068761011</westbc>
+        <eastbc>-16.5072994526223</eastbc>
+        <northbc>16.0595853306381</northbc>
+        <southbc>15.8999742132783</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>boundary change</themekey>
+        <themekey>intersect</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Digital Shoreline Analysis System</themekey>
+        <themekey>DSAS</themekey>
+      </theme>
+    </keywords>
+    <accconst/>
+    <useconst>These data were generated using the USGS Digital Shoreline Analysis System (DSAS) version 6.2 software application and should only be used for purposes explicitly stated by the originating organization.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg/>
+          <cntper/>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing or physical</addrtype>
+          <address/>
+          <city/>
+          <state/>
+          <postal/>
+        </cntaddr>
+        <cntvoice/>
+        <cntemail/>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>R.E. Henderson</origin>
+        <origin>A.S. Farris</origin>
+        <origin>M.G. Kratzmann</origin>
+        <origin>M.K. Bartlett</origin>
+        <origin>A. Ergul</origin>
+        <origin>J. McAndrews</origin>
+        <origin>R. Cibaj</origin>
+        <origin>J.L. Zichichi</origin>
+        <origin>E.A. Himmelstoss</origin>
+        <origin>E.R. Thieler</origin>
+        <pubdate>2025</pubdate>
+        <title>Digital Shoreline Analysis System version 6.2: U.S. Geological Survey software release</title>
+        <serinfo>
+          <sername>software</sername>
+          <issue>version 6</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <othercit>Suggested citation: Henderson, R.E., Farris, A.S., Kratzmann, M.G., Bartlett, M.K., Ergul, A., McAndrews, J., Cibaj, R., Zichichi, J.L., Himmelstoss, E.A., and Thieler, E.R., 2026, Digital Shoreline Analysis System version 6.2: U.S. Geological Survey software release, https://doi.org/10.5066/P1YPRKBM.</othercit>
+        <onlink>https://doi.org/10.5066/P1YPRKBM</onlink>
+        <onlink>https://www.usgs.gov/centers/whcmsc/science/digital-shoreline-analysis-system-dsas</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>E.A. Himmelstoss</origin>
+        <origin>R.E. Henderson</origin>
+        <origin>M.G. Kratzmann</origin>
+        <origin>A.S. Farris</origin>
+        <pubdate>2021</pubdate>
+        <title>Digital Shoreline Analysis System (version 5.1) User Guide</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2021-1091</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Refer to the DSAS user guide for more information about attribute requirements, accuracy reports, and feature creation. Suggested citation: Himmelstoss, E.A., Henderson, R.E., Kratzmann, M.G., and Farris, A.S., 2021, Digital Shoreline Analysis System (DSAS) version 5.1 user guide: U.S. Geological Survey Open-File Report 2021–1091, 104 p., https://doi.org/10.3133/ofr20211091.</othercit>
+        <onlink>https://doi.org/10.3133/ofr20211091</onlink>
+        <onlink>https://www.usgs.gov/centers/whcmsc/science/digital-shoreline-analysis-system-dsas</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>These data were generated using the USGS Digital Shoreline Analysis System (DSAS) version 6.2, an automated software program which does not perform checks for fidelity of the input features. Any testing on these data should be carried out by end-users to ensure fidelity of relationships.</logic>
+    <complete>This dataset contains all the shoreline/transect intersects generated by the rate calculation tool in the DSAS version 6.2 application. Incomplete fields in the metadata record should be updated by the DSAS user.</complete>
+    <lineage>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <address/>
+              <addrtype>mailing or physical</addrtype>
+              <city/>
+              <postal/>
+              <state/>
+            </cntaddr>
+            <cntemail/>
+            <cntperp>
+              <cntorg/>
+              <cntper/>
+            </cntperp>
+            <cntvoice/>
+          </cntinfo>
+        </proccont>
+        <procdate>20261031</procdate>
+        <procdesc>Transect features were generated using DSAS version 6.2.104 or were imported from a previously existing transect dataset and updated for use within DSAS version 6.2.104. Parameters Used: baseline layer=ligne_de_base_v2, baseline placement=onshore, Optional baseline parameters used=N, transect spacing=50, transect length=1000, smoothing value=500, shoreline layer =traits_de_cote_annuels. Transects clipped to shoreline extent N.</procdesc>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <address/>
+              <addrtype>mailing or physical</addrtype>
+              <city/>
+              <postal/>
+              <state/>
+            </cntaddr>
+            <cntemail/>
+            <cntperp>
+              <cntorg/>
+              <cntper/>
+            </cntperp>
+            <cntvoice/>
+          </cntinfo>
+        </proccont>
+        <procdate>20261031</procdate>
+        <procdesc>Shoreline intersects and rate calculations performed. Parameters Used:
+          BASELINE layer=ligne_de_base_v2,
+          transect file=transects_50m,
+          shoreline layer=traits_de_cote_annuels,
+          shoreline date field=date_,
+          shoreline uncertainty field name=uncy,
+          default accuracy=10m,
+          bias used =N,
+          shoreline intersection direction=seaward,
+          stats calculations=EPR,LRR,NSM,SCE,WLR,
+          shoreline threshold number=2,
+          confidence interval=90%
+          Shoreline dates used = 07/01/1984, 07/01/1986, 07/01/1987, 07/01/1988, 07/01/1989, 07/01/1990, 07/01/1999, 07/01/2000, 07/01/2001, 07/01/2002, 07/01/2003, 07/01/2006, 07/01/2007, 07/01/2009, 07/01/2010, 07/01/2011, 07/01/2013, 07/01/2014, 07/01/2015, 07/01/2016, 07/01/2017, 07/01/2018, 07/01/2019, 07/01/2020, 07/01/2021, 07/01/2022, 07/01/2023, 07/01/2024, 07/01/2025, 07/01/2026.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype/>
+        <ptvctcnt/>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>32628/EPSG:32628 / WGS 84 / UTM zone 28N</horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>transects_50m_intersect_20261031_190155</enttypl>
+        <enttypd>The intersection points are generated by DSAS at each transect, where it crosses a shoreline. Intersection points generated by DSAS are returned witin a geoPackage. These files can be exported from DSAS as .shp, .geoJSON, or .csv format based on user preference.</enttypd>
+        <enttypds>U.S. Geological Survey, Woods Hole Science Center</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>TRANSORDER</attrlabl>
+        <attrdef>Assigned by DSAS based on ordering of transects along the baseline.  Allows user to sort transect data sequentially alongshore from baseline start to baseline end.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BASELINEID</attrlabl>
+        <attrdef>Values in this field correlate to the baseline attribute field "ID" and are assigned by DSAS to identify the baseline segment used to generate the measurement transect.  Baseline segments assigned an ID = 0 are ignored by DSAS and no transects will be cast along those line segments.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHOREDATE</attrlabl>
+        <attrdef>The date (mm/dd/yyyy, dd/mm/yyyy, YYYYMMDD, or YYYY-MM-DD HH:MM:SS) of the shoreline intersected by the transect and represented (for shoreline analysis) by the intersect point. Prior to version 6.2, this field was called ShorelineID. Older versions of DSAS layers exported from a geodatabase or the DSAS geopackage may have had this attribute truncated as ShorelineI0, or ShorelineI. All variations of the shoreline date field should be accepted by DSAS v6.2, and converted to SHOREDATE.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Shoreline date in mm/dd/yyyy, dd/mm/yyyy, YYYYMMDD, or YYYY-MM-DD HH:MM:SS</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DECIMALYR</attrlabl>
+        <attrdef>The date value in decimal years. Prior to version 6.2, this field was called DECIMALYEAR. Older versions of DSAS layers exported from a geodatabase or the DSAS geopackage may have had this attribute truncated as DECIMALYE0, or DECIMALYEA. All variations of decimal year should be accepted by DSAS v6.2, and converted to DECIMALYR.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+            <attrunit>year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTANCE</attrlabl>
+        <attrdef>The distance in meters between the DSAS reference baseline and the shoreline intersection point along a DSAS transect.  If the baseline is offshore, distance values are negative.  If the baseline is onshore, distance values are positive. If a midshore baseline is used, both positive and negative values will be reported.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTERSECTX</attrlabl>
+        <attrdef>The X coordinate location of the intersect point.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTERSECTY</attrlabl>
+        <attrdef>The Y coordinate location of the intersect point.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNCY</attrlabl>
+        <attrdef>The positional uncertainty in meters of the shoreline at the intersect point, as defined by the shoreline positional uncertainty value. Prior to version 6.2, this field was called UNCERTAINTY. Older versions of DSAS layers exported from a geodatabase or the DSAS geopackage may have had this attribute truncated as UNCERTAIN0, or UNCERTAINT. All variations of the shoreline uncertainty field should be accepted by DSAS v6.2, and converted to UNCY.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DSAS_TYPE</attrlabl>
+        <attrdef>Shoreline type field used to specify the datum to which the shoreline is referenced. It is a required field when the Proxy Datum Bias (PDB) correction is being applied within DSAS.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>MHW</edomv>
+            <edomvd>Mean High Water (datum-based shoreline).</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HWL</edomv>
+            <edomvd>High Water Line (proxy-based shoreline).</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WDL</edomv>
+            <edomvd>Wet-dry Line (proxy-based shoreline).</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bias_X</attrlabl>
+        <attrdef>The X coordinate location of the intersect point with the bias applied.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bias_Y</attrlabl>
+        <attrdef>The Y coordinate location of the intersect point with the bias applied.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bias</attrlabl>
+        <attrdef>The estimated unidirectional horizontal offset in meters between the MHW elevation of the lidar data and the HWL shoreline position.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BIAS_DIST</attrlabl>
+        <attrdef>The distance in meters along the transect from the baseline to the intersect point, with the proxy-datum bias applied. Prior to version 6.2, this field was called BIAS_DISTANCE. Older versions of DSAS layers exported from a geodatabase or the DSAS geopackage may have had this attribute truncated as BIAS_DIST1, OR BIAS_DISTA. All variations of the bias distance field should be accepted by DSAS v6.2, and converted to BIAS_DIST.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Distance values in meters. Negative values are distance from the baseline toward land, positive values are from the baseline towards the sea.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BIAS_UNCY</attrlabl>
+        <attrdef>The uncertainty (in meters) of the position of the HWL associated with the calculated proxy-datum bias value. Prior to version 6.2, this field was called BIAS_UNCERTAINTY. Older versions of DSAS layers exported from a geodatabase or the DSAS geopackage may have had this attribute truncated as BIAS_UNCE1, OR BIAS_UNCER. All variations of the bias uncertainty field should be accepted by DSAS v6.2, and converted to BIAS_UNCY.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unlimited</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describe the attributes that are generated using the Digital Shoreline Analysis System version 6 software. In some cases, the attributes described in this metadata file may not exist in the dataset. It is up to the DSAS user to verify the attributes and ensure all values are populated with regard to their dataset.</eaover>
+      <eadetcit>U.S. Geological Survey</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg/>
+          <cntper/>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing or physical</addrtype>
+          <address/>
+          <city/>
+          <state/>
+          <postal/>
+        </cntaddr>
+        <cntvoice/>
+        <cntemail/>
+      </cntinfo>
+    </distrib>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20261031</metd>
+    <metrd>20261031</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg/>
+          <cntper/>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing or physical</addrtype>
+          <address/>
+          <city/>
+          <state/>
+          <postal/>
+        </cntaddr>
+        <cntvoice/>
+        <cntemail/>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

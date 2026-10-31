@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trait de côte de Saint-Louis</title>
+<meta name="description" content="Évolution du trait de côte de la Langue de Barbarie (Saint-Louis, Sénégal) de 1984 à 2026, d'après les images Landsat et Sentinel-2.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="carte" aria-label="Carte du trait de côte"></div>
+
+<aside id="panneau">
+  <header>
+    <h1>La Langue de Barbarie recule au sud et avance au centre</h1>
+    <p class="intro">Trait de côte de Saint-Louis du Sénégal, extrait chaque année de 1984 à 2026 sur des images Landsat et Sentinel-2, et taux d'évolution calculés avec DSAS tous les 50 m.</p>
+  </header>
+
+  <section class="temps" aria-labelledby="titre-annee">
+    <div class="annee-ligne">
+      <output id="annee" aria-live="polite">2026</output>
+      <button id="lecture" type="button" aria-label="Lancer l'animation">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path id="icone-lecture" d="M7 5v14l12-7z"/></svg>
+      </button>
+    </div>
+    <h2 id="titre-annee" class="sr">Année affichée</h2>
+    <div class="frise">
+      <input id="curseur" type="range" min="0" max="29" step="1" value="29" aria-label="Choisir l'année">
+      <div id="graduations" aria-hidden="true"></div>
+      <div class="bornes"><span>1984</span><span>2026</span></div>
+    </div>
+    <p class="aide">En blanc, la côte de l'année choisie ; en pointillés, celle de 1984.</p>
+  </section>
+
+  <section class="taux">
+    <div class="taux-tete">
+      <h2>Vitesse d'évolution</h2>
+      <div class="choix" role="radiogroup" aria-label="Indicateur DSAS">
+        <button type="button" role="radio" aria-checked="true" data-ind="lrr" title="Régression linéaire sur toutes les années">Tendance</button>
+        <button type="button" role="radio" aria-checked="false" data-ind="nsm" title="Déplacement net entre 1984 et 2026">Bilan net</button>
+      </div>
+    </div>
+    <div class="legende">
+      <div id="degrade"></div>
+      <div class="legende-bornes"><span id="leg-min">recul −6 m/an</span><span id="leg-max">avancée +6 m/an</span></div>
+    </div>
+  </section>
+
+  <section id="fiche" hidden>
+    <div class="fiche-tete">
+      <h2 id="fiche-titre">Transect</h2>
+      <button id="fermer" type="button" aria-label="Fermer la fiche">×</button>
+    </div>
+    <dl class="chiffres">
+      <div><dt>Tendance 1984-2026</dt><dd id="f-lrr"></dd></div>
+      <div><dt>Bilan net</dt><dd id="f-nsm"></dd></div>
+      <div><dt>Entre deux dates extrêmes</dt><dd id="f-epr"></dd></div>
+    </dl>
+    <svg id="graphe" viewBox="0 0 320 150" role="img" aria-label="Position du trait de côte par année"></svg>
+    <p class="aide">Position de la côte chaque année par rapport à 1984-1990. Au-dessus de zéro, la plage a avancé vers la mer.</p>
+  </section>
+
+  <p class="invite" id="invite">Cliquez sur un transect pour voir son évolution année par année.</p>
+
+  <footer>
+    <a href="https://github.com/mawa399/erosion-cotiere-saint-louis-senegal">Méthode et données</a>
+    <span>Mawa Diaw</span>
+  </footer>
+</aside>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
