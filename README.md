@@ -10,35 +10,28 @@ Analyse diachronique du trait de côte de Saint-Louis et de la Langue de Barbari
 
 La Langue de Barbarie est une flèche sableuse qui sépare le fleuve Sénégal de l'océan Atlantique. En 2003, un canal de délestage y a été creusé pour protéger Saint-Louis des crues du fleuve. Le canal s'est rapidement élargi en brèche, déplaçant l'embouchure du fleuve et faisant disparaître des villages. Le quartier de pêcheurs de Guet Ndar est également exposé à l'avancée de la mer.
 
-Ce projet mesure ces évolutions et estime les enjeux menacés à moyen terme.
+Ce projet mesure ces évolutions sur plus de 40 ans.
 
 ## Objectifs
 
 1. Extraire automatiquement les traits de côte de 1984 à aujourd'hui
 2. Calculer les taux de recul et d'avancée le long de la côte
-3. Suivre l'ouverture et la migration de la brèche depuis 2003
-4. Projeter le trait de côte à 10 et 20 ans et estimer le bâti et la population exposés
-5. Restituer les résultats dans une application web avec curseur temporel
+3. Restituer les résultats dans une application web avec curseur temporel
 
 ## Données
 
 | Donnée | Source | Usage |
 |---|---|---|
-| Landsat 5, 7, 8, 9 | USGS via Google Earth Engine | Traits de côte 1984-2026 |
+| Landsat 5, 7, 8 | USGS via Google Earth Engine | Traits de côte 1984-2020 (30 m) |
 | Sentinel-2 | Copernicus via Google Earth Engine | Traits de côte 2015-2026 (10 m) |
-| Bâti | OpenStreetMap | Enjeux exposés |
-| Population | WorldPop | Population exposée |
-| MNT | Copernicus DEM GLO-30 | Altitude des zones basses |
 
 ## Méthode
 
-| Étape | Outil | Notebook |
+| Étape | Outil | Emplacement |
 |---|---|---|
 | Extraction des traits de côte (616 dates, 1984-2026) | CoastSat (Python + Google Earth Engine, dans Colab) | `01_extraction_traits_de_cote.ipynb` |
 | Un trait de côte médian par année | Transects tous les 50 m, médiane robuste (Python, dans Colab) | `02_traits_annuels.ipynb` |
 | Taux d'évolution (NSM, EPR, LRR, WLR) | DSAS 6.2 (application autonome, USGS), IC 90 % | `dsas/` |
-| Suivi de la brèche | Python / GeoPandas | à venir |
-| Projection et enjeux exposés | PostGIS | à venir |
 | Restitution | Application web MapLibre GL JS | `app/` |
 
 ## Résultats DSAS (Langue de Barbarie, 1984-2026)
