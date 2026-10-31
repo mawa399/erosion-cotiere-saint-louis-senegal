@@ -46,7 +46,7 @@ function couleurTaux(ind) {
     -borne, "#C0392B", -borne / 2, "#E8A08C", 0, "#CFC6B0", borne / 2, "#8DB7D6", borne, "#1F6FA8"];
 }
 
-carte.on("load", async () => {
+async function initialiser() {
   const [traits, transects] = await Promise.all([
     fetch("data/traits_de_cote_annuels.geojson").then((r) => r.json()),
     fetch("data/transects_dsas.geojson").then((r) => r.json()),
@@ -87,7 +87,11 @@ carte.on("load", async () => {
   carte.on("mouseenter", "transects", () => (carte.getCanvas().style.cursor = "pointer"));
   carte.on("mouseleave", "transects", () => (carte.getCanvas().style.cursor = ""));
   carte.on("click", "transects", (e) => ouvrirFiche(e.features[0].properties.id));
-});
+}
+
+// Le style est défini dans le code : il peut déjà être prêt à cette ligne
+if (carte.isStyleLoaded()) initialiser();
+else carte.once("style.load", initialiser);
 
 // Couleur d'une année pour la frise (même dégradé que la carte)
 function couleurAnnee(a) {
