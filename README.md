@@ -4,7 +4,9 @@ Analyse diachronique du trait de côte de Saint-Louis et de la Langue de Barbari
 
 **Application en ligne :** https://mawa399.github.io/erosion-cotiere-saint-louis-senegal/app/
 
-![Traits de côte annuels 1984-2026](outputs/figures/traits_annuels_1984_2026.png)
+## Vue d'ensemble
+
+![Schéma du projet : chaîne de traitement et résultats](outputs/figures/schema_projet_erosion_saint_louis_v2.png)
 
 ## Contexte
 
